@@ -1,0 +1,705 @@
+body.home {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-page {
+  position: relative;
+  min-height: 100vh;
+  background-image: url('photoOOO.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-attachment: fixed;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  z-index: 0;
+}
+body.rest {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+.full-pageR {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoR.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlayR {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  z-index: 1;
+}
+
+body.cafe {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+.full-pageC {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoCAFF.jpg'); /* تأكد من اسم الصورة */
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlayC {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* طبقة شفافة داكنة */
+  z-index: 0;
+}
+
+
+body.site {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+.full-pageT {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoT.jpg'); /* تأكد من اسم الصورة */
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlayT {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  z-index: 0;
+}
+
+body.about {
+  background-image: url('photoAAA.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+/* تنسيق عام لقسم التعريف */
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  left: 30px;
+  z-index: 1;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 20px 0;
+  text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #e0f7fa;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px 15px;
+  border-radius: 6pxs;
+  transition: background 0.3s ease;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+
+}
+
+.nav-links li a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.intro-text {
+  z-index: 1;
+ text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+
+}
+
+.intro-text h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+
+}
+
+.intro-text p {
+  font-size: 1.2em;
+  max-width: 600px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+
+}
+body.maza {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+.full-pageM {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoM.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-attachment: fixed;
+}
+
+.overlayM {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  z-index: 0;
+    pointer-events: none;
+
+}
+body.mmaza {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+.full-pageMM {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoMENU.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-attachment: fixed;
+}
+
+.overlayMM {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  z-index: 0;
+    pointer-events: none;
+
+}
+body.gmaza {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+.full-pageG {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoMENU.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-attachment: fixed;
+}
+
+.overlayG {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* طبقة شفافة داكنة */
+  z-index: 0;
+    pointer-events: none;
+
+}
+body.qandil {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+.full-pageQ {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoQQ.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-attachment: fixed;
+}
+
+.overlayQ {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  z-index: 0;
+    pointer-events: none;
+
+}
+body.qandilq {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+.full-pageQQ {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoQMQ.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-attachment: fixed;
+}
+
+.overlayQQ {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  z-index: 0;
+    pointer-events: none;
+
+}
+body.gallery-page {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+.full-pageQQQ {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoQQ.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-attachment: fixed;
+}
+
+.overlayQQQ {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* طبقة شفافة داكنة */
+  z-index: 0;
+    pointer-events: none;
+
+}
+body.call {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+.full-pageC {
+  position: relative;
+  height: 100vh;
+  background-image: url('photo.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-attachment: fixed;
+}
+
+.overlayC {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* طبقة شفافة داكنة */
+  z-index: 0;
+    pointer-events: none;
+
+}
+
+.links {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.links a {
+  text-decoration: none;
+  background-color: #00796b;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #004d40;
+}
+body.brokar {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+.full-pageB {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoB.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-attachment: fixed;
+}
+
+.overlayB {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  z-index: 0;
+    pointer-events: none;
+
+}
+body.bbrokar {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+
+}
+
+.full-pageMB {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoBM.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-attachment: fixed;
+}
+
+.overlayMB {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* طبقة شفافة داكنة */
+  z-index: 0;
+    pointer-events: none;
+
+}
+body.mazaj {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+.full-pageMZG {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoMZG.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-attachment: fixed;
+}
+
+.overlayMZG {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* طبقة شفافة داكنة */
+  z-index: 0;
+  pointer-events: none;
+}
+body.mazaj {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+.full-pageMMZG {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoMMMZG.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-attachment: fixed;
+}
+
+.overlayMMZG {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* طبقة شفافة داكنة */
+  z-index: 1;
+  pointer-events: none;
+}
+body.azadi {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+.full-pageAZ {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoAAA.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlayAZ {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  z-index: 1;
+  pointer-events: none;
+
+}
+.full-pageGAZ {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoAAA.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  z-index: 2;
+}
+
+.overlayGAZ {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  backdrop-filter: blur(6px);
+  z-index: 1;
+  pointer-events: none;
+
+}
+.full-pageHE {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoHEMO.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlayHE {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  z-index: 1;
+  pointer-events: none;
+
+}
+.full-pageGHE {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoHEMO.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlayGHE {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  backdrop-filter: blur(6px);
+  z-index: 1;
+  pointer-events: none;
+
+}
+.full-pageMAR {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoMAR.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlayMAR {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  z-index: 1;
+  pointer-events: none;
+
+}
+.full-pageGMAR {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoMAR.jpg'); /* تأكد من اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlayGMAR {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  backdrop-filter: blur(6px);
+  z-index: 1;
+  pointer-events: none;
+
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>حديقة آزادي – القامشلي</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+    .gallery-section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* عنوان القسم */
+.gallery-section h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #444;
+  z-index: 2;
+}
+
+/* شبكة الصور */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  z-index: 2;
+}
+
+/* كل طبق */
+
+/* الصورة */
+.dish img {
+  width: 250pxpx;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3 ease;
+  z-index: 2;
+}
+.dish img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+
+}
+    
+  </style>
+</head>
+<body class="azadi">
+  <section class="full-pageGHE">
+    <div class="overlayGHE"></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html"> &#x2192 العودة إلى الصفحة الرئيسية </a></li>
+        <li><a href="hemo.html">&#x2192العودة </a></li>
+      </ul>
+    </nav>
+    <section class="gallery">
+      <div class="dish">
+        <img src="galleryHEMO.jpg" alt="فول بالزيت">
+      </div>
+      <div class="dish">
+        <img src="galleryHEM.jpg" alt="بيض مع سجق">
+      </div>
+      <div class="dish">
+        <img src="galleryHE.jpg" alt="أومليت">
+      </div>
+      <div class="dish">
+        <img src="galleryHemoo.jpg" alt="أومليت">
+      </div>
+      <div class="dish">
+        <img src="galleryHH.jpg" alt="أومليت">
+      </div>
+    </section>
+  </main>
+  <footer style="text-align: center; padding: 5px 10px; color: #ffffff; font-size: 0.44em;  z-index: 2; position: fixed; bottom: 5px; left: 50%; transform: translateX(-50%); border-radius: 5px;">
+  <p>©  المهندسة بنجوين رشيد طاهر – تصميم وتنفيذ موقع إلكتروني يعكس جمال القامشلي -2025</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>المقاهي التقليدية في القامشلي</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  .full-pageC {
+  position: relative;
+  height: 100vh;
+  background-image: url('photoCAFA.jpg'); /* تأكد من اسم الصورة */
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlayC {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* طبقة شفافة داكنة */
+  z-index: 0;
+}
+  </style>
+</head>
+<body class="cafe">
+ <section class="full-pageC">
+    <div class="overlayC"></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">&#x2192العودة  إلى الصفحة الرئيسية </a></li>
+        <li><a href="brokar.html">مقهى بروكار</a></li>
+        <li><a href="mazaj.html">مقهى مزاج</a></li>
+      </ul>
+    </nav> 
+    <div class="hero-text">
+      <h1>المقاهي التقليدية</h1>
+      <p>اختر مقهاك واستمتع بنكهات التراث</p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>استكشاف المقاهي المحلية</h2>
+      <p>اضغط على اسم المقهى أعلاه لتتعرف على مشروباته وأجوائه وقصته.</p>
+    </section>
+  </main>
+  <footer style="text-align: center; padding: 5px 10px; color: #ffffff; font-size: 0.44em;  z-index: 2; position: fixed; bottom: 5px; left: 50%; transform: translateX(-50%); border-radius: 5px;">
+  <p>©  المهندسة بنجوين رشيد طاهر – تصميم وتنفيذ موقع إلكتروني يعكس جمال القامشلي -2025</p>
+</footer>
+</body>
+</html>

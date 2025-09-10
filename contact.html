@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>اتصل بنا – القامشلي</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .full-pageC {
+      position: relative;
+      height: 100vh;
+      background-image: url('photoN.jpg'); /* ضع صورة خلفية مناسبة */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      z-index: 0;
+    }
+
+    .overlayC {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    nav, .hero-text, form {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-text h1 {
+      font-size: 2.5em;
+      color: #ffffff;
+      margin-bottom: 15px;
+    }
+
+    .hero-text p {
+      color: #e0e0e0;
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    form {
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      backdrop-filter: blur(6px);
+      max-width: 600px;
+      width: 100%;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #004d40;
+      text-align: right;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #80cbc4;
+      border-radius: 5px;
+      font-size: 1em;
+      background-color: #f4f1e8;
+      transition: border-color 0.3s ease;
+    }
+
+    form input:focus,
+    form textarea:focus {
+      border-color: #26a69a;
+      outline: none;
+    }
+
+    button[type="submit"] {
+      background-color: #26a69a;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #004d40;
+    }
+    nav {
+  position: absolute;
+  top: 20px;
+  left: 40px; /* زِد أو قلّل الرقم حسب المسافة اللي بدك */
+  z-index: 2;
+}
+  </style>
+</head>
+<body class="call">
+  <section class="full-pageC">
+    <div class="overlayC"></div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">&#x2192 العودة إلى الصفحة الرئيسية</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-text">
+      <h1>اتصل بنا</h1>
+      <p>يسعدنا تواصلك معنا في أي وقت</p>
+    </div>
+
+    <form action="#" method="post">
+      <label for="name">الاسم الكامل:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">البريد الإلكتروني:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">رسالتك:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">إرسال</button>
+    </form>
+    <footer style="text-align: center; padding: 5px 10px; color: #ffffff; font-size: 0.44em;  z-index: 2; position: fixed; bottom: 5px; left: 50%; transform: translateX(-50%); border-radius: 5px;">
+  <p>©  المهندسة بنجوين رشيد طاهر – تصميم وتنفيذ موقع إلكتروني يعكس جمال القامشلي -2025</p>
+</footer>
+  </section>
+</body>
+</html>
